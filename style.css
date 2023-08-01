@@ -5,11 +5,13 @@
 .img-sidebar {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .info-side {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .background {
@@ -17,7 +19,40 @@ background-color: lightgray;
 }
 
 #city-img {
-    width: 50px;
-    height: auto;
+    max-width: 650px;
+    max-height: auto;
+    position: relative;
+}
+
+.logo {
     position: absolute;
+    background-color: lightgray;
+    opacity: 0.6;
+    display: flex;
+    max-height: max(75px, 25%);
+    width: auto;
+    align-items: center;
+    top: 300px;
+    padding-left: 253px;
+    padding-right: 253px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo-write {
+
+}
+
+#odin-pic {
+    height: 150px;
+    opacity: 1;
+}
+
+.top-text {
+    padding-top: 200px;
+}
+
+.credits {
+    position: absolute;
+    bottom: 5px;
 }
