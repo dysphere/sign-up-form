@@ -133,5 +133,12 @@ button {
 }
 
 input:focus {
-    
+    outline-color: #00BFFF;
+    outline-width: thin;
+    box-shadow: 4px 3px 0px lightgray;
+}
+
+input:invalid {
+outline-color: red;
+outline-width: thin;
 }
