@@ -27,20 +27,27 @@ background-color: lightgray;
 .logo {
     position: absolute;
     background-color: lightgray;
-    opacity: 0.6;
+    opacity: 0.8;
     display: flex;
     max-height: max(75px, 25%);
     width: auto;
     align-items: center;
-    top: 300px;
-    padding-left: 253px;
-    padding-right: 253px;
+    top: 125px;
+    padding-left: 110px;
+    padding-right: 120px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.logo-write {
+@font-face {
+    font-family: azonix;
+    src: url(Azonix-1VB0.otf)
+}
 
+.logo-write {
+font-family: azonix;
+font-size: 120px;
+color:white;
 }
 
 #odin-pic {
@@ -49,10 +56,82 @@ background-color: lightgray;
 }
 
 .top-text {
-    padding-top: 200px;
+    margin-top: 150px;
+    padding-left: 75px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .credits {
     position: absolute;
-    bottom: 5px;
+    bottom: 15px;
+    left: 150px;
+    color: white;
+}
+
+.cite {
+    color: white;
+}
+
+.bottom-text {
+padding-bottom: 180px;
+padding-top: 50px;
+margin-left: 75px;
+}
+
+.form-style {
+    padding-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 300px;
+}
+
+label {
+text-transform: uppercase;
+color: #536878;
+}
+
+input {
+    font-weight: bold;
+}
+
+legend {
+font-size: 30px;
+}
+
+button {
+    background-color: #536878;
+    color: white;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.account-check {
+    font-size: 20px;
+}
+
+.form-flex-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-flex-gen {
+    display: flex;
+}
+
+.form-all {
+    margin-top: 40px;
+}
+
+input:focus {
+    
 }
